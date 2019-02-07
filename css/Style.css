@@ -1,0 +1,125 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing:border-box;
+}
+
+body{
+	font-size: 20px;
+	color: white;
+	font-family: 'Gill Sans Ultra Bold', calibri;
+}
+
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url('../images/B1.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+
+}
+
+.clearfix:after{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0px;
+	clear: both;
+
+}
+
+
+.logo{
+	height: 150px;
+	width: auto;
+	float: left;
+	margin: 20px;
+
+}
+
+.row ul{
+    list-style-type: none;
+    float: right;
+    
+}
+
+.row ul li{
+    display:inline-block;
+    font-size: 1em;
+    line-height: 50px;
+    margin-top: 30px;
+    
+}
+
+.row ul li a{    
+    text-decoration: none;
+    color:ghostwhite;
+    padding:15px 20px;   
+}
+
+.row ul li a:hover{
+    color: blue;
+    transition: 0.5s ease;
+
+}
+
+.main-content-header{
+	width: 1180px;
+	position: absolute;
+	top: 50%;
+	left: 5%;
+}
+
+h1{
+	color:white;
+	font-size: 240%;
+	word-spacing: 5px;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.btn{
+	display: inline-block;
+	padding: 10px 20px;
+	font-weight: lighter;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 200px;
+	transition: background-color 0.2s, border 0.2s, color0.2;
+
+}
+
+.btn-full{
+	background-color: transparent;
+	color:white;
+	margin-right: 15px;
+	border:1px solid white;
+	
+}
+
+.btn-full:hover{
+	background-color: blue;
+}
+
+.tagline{
+	font-size: 30px;
+	animation: colorchangeNirthaya 5s infinite;
+}
+
+@keyframes colorchangeNirthaya{
+	0%{color:green;}
+	
+	100%{color: yellow;}
+}
+
+.colorchange{
+	mix-blend-mode:exclusion;
+}
+
+
+/* Responsive Query */
+
+
+
